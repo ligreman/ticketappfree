@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ticketapp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="coin">$</string>
+    <string name="insert_price">Amount of the meal</string>
+    <string name="calculate">Process</string>
+    <string name="persons_a">Pay among</string>
+    <string name="persons_b">people</string>
+    <string name="explanation">Ticketapp calculates the different options to pay a meal with your tickets. It shows all the options for you to choose the best suited for you, and tells you the money missing (-) or left over (+) in each one.</string>
+    <string name="title_activity_result">Tickets distribution</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="ex">x</string>
+    <string name="open_parentesis">(</string>
+    <string name="close_parentesis">)</string>
+    <string name="default_text">#</string>
+
+    <string name="main_toast_insert_value">Enter an amount</string>
+    <string name="main_toast_insert_value_positive">Enter an amount greater than zero</string>
+
+    <!--<string name="hello_world">Hello world!</string>-->
+    <string name="max_values">Enter a value between %1$d and %2$d</string>
+    <string name="max_values_float">Enter a value between %1$f and %2$f</string>
+    <string name="max_values_string">Enter a value between %1$s and %2$s</string>
+
+
+    <!-- Results Window -->
+    <string name="result_intro_desc">Ways to pay</string>
+    <string name="result_intro_desc_pachas">Each one of you pays</string>
+    <string name="result_total_paid">Paid with tickets</string>
+    <string name="result_no_data">No data</string>
+
+    <!-- Settings -->
+    <string name="settings_copyright">Copyright© Ligre Software. All rights reserved.</string>
+    <string name="settings_ticket_one_explanation">Enter the first ticket value. Cannot be empty.</string>
+    <string name="settings_ticket_one_value">First ticket value</string>
+    <string name="settings_ticket_title">Value in $</string>
+    <string name="settings_ticket_two_explanation">Enter the second ticket value. 0 if you do not use the second ticket.</string>
+    <string name="settings_ticket_two_value">Second ticket value</string>
+    <string name="settings_distro_off">All paying possible combinations are shown.</string>
+    <string name="settings_distro_on">Only the lowest cost combinations are shown.</string>
+    <string name="settings_distro_title">Paying combinations</string>
+    <string name="settings_category">Tickets</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="settings_summary">Set the ticket value</string>
+
+</resources>

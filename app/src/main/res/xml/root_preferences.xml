@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/baseline_receipt_24"
+        app:title="@string/settings_category"
+        app:summary="@string/settings_summary">
+        <EditTextPreference
+            android:dialogTitle="@string/settings_ticket_title"
+            android:inputType="numberDecimal"
+            android:key="ticketOne"
+            android:summary="@string/settings_ticket_one_explanation"
+            android:title="@string/settings_ticket_one_value" />
+        <EditTextPreference
+            android:dialogTitle="@string/settings_ticket_title"
+            android:inputType="numberDecimal"
+            android:key="ticketTwo"
+            android:summary="@string/settings_ticket_two_explanation"
+            android:title="@string/settings_ticket_two_value" />
+        <SwitchPreference
+            android:key="onlyBestDistro"
+            android:summaryOff="@string/settings_distro_off"
+            android:summaryOn="@string/settings_distro_on"
+            android:title="@string/settings_distro_title" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

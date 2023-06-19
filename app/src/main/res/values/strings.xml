@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Ticketapp</string>
+
+    <string name="action_settings">Preferencias</string>
+    <string name="coin">€</string>
+    <string name="insert_price">Importe de la consumición</string>
+    <string name="calculate">Calcular</string>
+    <string name="persons_a">A pagar entre</string>
+    <string name="persons_b">personas</string>
+    <string name="explanation">Ticketapp calcula las diferentes combinaciones de pagar una consumición con tus cheques de comida. Te muestra todas las opciones para que elijas la que más te conviene, y te indica el dinero que faltaría (-) o que sobraría (+) con cada una de ellas.</string>
+    <string name="title_activity_result">Distribución de cheques</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="ex">x</string>
+    <string name="open_parentesis">(</string>
+    <string name="close_parentesis">)</string>
+    <string name="default_text">#</string>
+
+    <string name="main_toast_insert_value">Introduce un importe</string>
+    <string name="main_toast_insert_value_positive">Introduce un importe mayor que cero</string>
+
+    <!--<string name="hello_world">Hello world!</string>-->
+    <string name="max_values">Introduce un valor entre %1$d y %2$d</string>
+    <string name="max_values_float">Introduce un valor entre %1$f y %2$f</string>
+    <string name="max_values_string">Introduce un valor entre %1$s y %2$s</string>
+
+
+    <!-- Results Window -->
+    <string name="result_intro_desc">Formas de pagar</string>
+    <string name="result_intro_desc_pachas">Toca pagar a cada uno</string>
+    <string name="result_total_paid">Pagado en cheques</string>
+    <string name="result_no_data">No hay datos</string>
+
+    <!-- Settings -->
+    <string name="settings_copyright">Copyright© Ligre Software. Todos los derechos reservados.</string>
+    <string name="settings_ticket_one_explanation">Introduce el valor del primer cheque. No puede estar vacío.</string>
+    <string name="settings_ticket_one_value">Valor del cheque 1</string>
+    <string name="settings_ticket_title">Valor en €</string>
+    <string name="settings_ticket_two_explanation">Introduce el valor del segundo cheque. 0 si no usas el segundo cheque.</string>
+    <string name="settings_ticket_two_value">Valor del cheque 2</string>
+    <string name="settings_distro_off">Se muestran todas las posibles combinaciones de pagar.</string>
+    <string name="settings_distro_on">Se muestran sólo las combinaciones con el menor coste posible.</string>
+    <string name="settings_distro_title">Combinaciones de pago</string>
+    <string name="title_activity_settings">Preferencias</string>
+
+    <!-- Preference Titles -->
+    <string name="settings_category">Tickets</string>
+    <string name="back">Volver</string>
+    <string name="settings_summary">Configura el valor de los cheques</string>
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
